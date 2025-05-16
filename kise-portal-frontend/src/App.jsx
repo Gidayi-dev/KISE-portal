@@ -1,10 +1,29 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import Register from './pages/Register';
+// import Home from './pages/Home';
 
-function App() {
-  return (
-    <div className="bg-blue-500 text-white p-4 rounded-lg">
-      <h1 className="text-3xl font-bold">Hello, Tailwind!</h1>
-    </div>
-  );
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="/register" element={<Register />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+// export default App;
+import { useRoutes } from 'react-router-dom';
+import Home from './pages/Home';
+import Register from './pages/Register';
+import NotFound from './pages/NotFound';
+
+const routes = [
+  // { path: '/', element: <Home /> },
+  { path: '/', element: <Register /> },
+  // { path: '*', element: <NotFound /> },
+];
+
+export default function App() {
+  const routing = useRoutes(routes);
+  return routing;
 }
-export default App;
