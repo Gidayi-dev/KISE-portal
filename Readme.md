@@ -1,15 +1,3 @@
-
-* React (Frontend)
-* Node.js with ES Modules (Backend)
-* PostgreSQL (Database)
-* Role-Based Access (Student, Admin, Trainer, Course Coordinator)
-* `node-pg-migrate` with ES Module setup
-
----
-
-## ✅ `README.md` – KISE Portal
-
-```md
 # 🎓 KISE School Portal
 
 A full-stack student management system for KISE that allows students, trainers, course coordinators, and admins to interact with the platform based on their roles.
