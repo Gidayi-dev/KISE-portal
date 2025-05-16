@@ -199,7 +199,7 @@ git push origin feature/<your-name>-<feature-name>
 
 ---
 
-**Built with ❤️ by \[Millyannah & Team]**
+**Built with ❤️ by \[Gidayi-dev & Team]**
 
 ```
 
